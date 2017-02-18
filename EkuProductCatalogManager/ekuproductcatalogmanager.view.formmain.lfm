@@ -1,0 +1,38 @@
+object FormMain: TFormMain
+  Left = 326
+  Height = 385
+  Top = 250
+  Width = 527
+  Caption = 'FormMain'
+  ClientHeight = 365
+  ClientWidth = 527
+  Menu = MainMenuMain
+  LCLVersion = '6.0'
+  object PanelMain: TPanel
+    Left = 0
+    Height = 365
+    Top = 0
+    Width = 527
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 0
+  end
+  object MainMenuMain: TMainMenu
+    Left = 464
+    Top = 312
+    object MenuItemTool: TMenuItem
+      Caption = '&T.工具'
+      object MenuItemToolPreference: TMenuItem
+        Caption = '&P.設置...'
+      end
+    end
+    object MenuItem1: TMenuItem
+      Caption = 'MenuItem1'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'MenuItem2'
+      OnClick = MenuItem2Click
+    end
+  end
+end

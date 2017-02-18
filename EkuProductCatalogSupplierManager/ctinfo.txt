@@ -1,0 +1,10 @@
+=============================================
+  CodeTyphon Studio
+  Typhon IDE
+  Information file
+=============================================
+
+EkuProductCatalogSupplierManager
+
+2017/02/16 21:42:36
+ 

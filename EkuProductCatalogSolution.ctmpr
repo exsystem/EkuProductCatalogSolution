@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <MultiProject FileVersion="1">
+    <Elements Count="2">
+      <Element0 FileName="EkuProductCatalogSupplierManager\EkuProductCatalogSupplierManager.lpi">
+        <BuildModes Count="3"/>
+        <Mode1 Name="Default" Compile="True"/>
+        <Mode2 Name="Debug"/>
+        <Mode3 Name="Release"/>
+      </Element0>
+      <Element1 FileName="EkuProductCatalogManager\EkuProductCatalogManager.lpi">
+        <BuildModes Count="3"/>
+        <Mode1 Name="Default"/>
+        <Mode2 Name="Debug" Compile="True"/>
+        <Mode3 Name="Release"/>
+      </Element1>
+    </Elements>
+  </MultiProject>
+</CONFIG>
